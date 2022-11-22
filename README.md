@@ -1,9 +1,9 @@
 # svl-api
 Projeto de sistema de venda de livros
 
-# Primeiros passos
+# Configurando o projeto - Primeiros passos
 
-1. git hub
+1. github
 readme.md
 
 2. Clone do projeto 
@@ -29,4 +29,14 @@ npm i express mongoose -S
 6. Criar o arquivo ./server.js na raiz
 
 7. Iniciar o server.js utilizando o express
+
+8. Criar o arquivo .gitignore e escrever dentro /node_modules
+
+9. Configurar a base no mongo (Atlas)
+
+# Configurando o banco (MongoDB)
+
+## Criar o arquivo de conexâo usando o mongoose
+
+1. Criar uma pasta /config, criar o arquivo db.js
 
