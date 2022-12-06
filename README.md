@@ -100,3 +100,9 @@ collection name: livros
 -> buscar processo pela porta pelo 
 
 pid netstat -ano | findstr :<PORT>
+
+# Criando rotas
+
+1. Criar uma pasta na raiz /controlllers
+
+2. Criar o arquivo LivroController.js
