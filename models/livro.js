@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 // criar o esuqema da collection no mongo 
 const livroSchema = new mongoose.Schema({
-    _id: { tipe: String },
+    id: { type: String },
     titulo: { type: String, required: true },
     ano: { type: Number, required: true },
     autor: { type: String, required: true },

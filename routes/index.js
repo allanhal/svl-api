@@ -10,7 +10,9 @@ const routes = (app) => {
     )
 
     app.use(
-        express.json(), livros)
+        express.json(), 
+        livros
+    )
 }
 
 module.exports = routes

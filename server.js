@@ -13,9 +13,9 @@ db.once('open', ()=> {
 
 
 
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
   res.send('servidor online')
-})
+}) */
 
 // app.get('/livros', (req, res) => {
 //   livros.find((error, livros) => {

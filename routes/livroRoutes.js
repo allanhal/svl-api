@@ -5,7 +5,8 @@ const routes = express.Router()
 
 routes
 .get('/books', LivroController.findAll)
-.get('/books/:id', LivroController.findById)
+.post('/book', LivroController.createBook)
+.get('/book/:id', LivroController.getBookById)
 
 
 module.exports = routes
